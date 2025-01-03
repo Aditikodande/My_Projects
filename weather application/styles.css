@@ -1,0 +1,88 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    background-image: url('wb2.avif'); /* Path to your image */
+    background-size: cover; /* Ensures the image covers the entire element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; 
+}
+
+/* Container for the entire weather dashboard */
+.container {
+    text-align: center;
+    background-color: #feffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    border: 2px solid black; /* Added black border */
+}
+
+/* Input field and button for search */
+#search-container {
+    margin-bottom: 20px;
+}
+
+#city-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    border: 2px solid black; /* Added black border */
+
+}
+
+#search-btn {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid black; /* Added black border */
+
+}
+
+#search-btn:hover {
+    background-color: #45a049;
+}
+
+/* Weather information styling */
+.weather-info {
+    margin-top: 20px;
+}
+
+#weather-icon {
+    width: 50px;
+    height: 50px;
+}
+
+/* Forecast styling */
+#forecast-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.forecast-item {
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #e0f7fa;
+    width: 100px;
+}
+
+.forecast-item img {
+    width: 40px;
+    height: 40px;
+}
+
