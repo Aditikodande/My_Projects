@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: flex-start; /* Aligns content to the left */
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('tb3.avif'); /* Path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    background-color: rgb(247, 247, 245);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin-left: 900px; /* Moves container slightly to the right */
+    border: 2px solid black; /* Adds a black border */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#task-input {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-bottom: 10px; /* Added margin to create space between the input field and the button */
+    border: 2px solid black; /* Adds a black border */
+
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid black; /* Adds a black border */
+
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#task-list {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+        border: 2px solid black; /* Adds a black border */
+
+}
+
+button.edit {
+    background-color: #2196F3;
+}
+
+button.delete {
+    background-color: #f44336;
+}
